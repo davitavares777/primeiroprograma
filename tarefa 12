@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+   int n1=0;
+   int n2=0;
+    printf("digite um numero:");
+    scanf("%d", &n1);
+    printf("digie outro numero:");
+    scanf("%d",&n2);
+    if(n1==n2){
+        printf("esses numeros são iguais");
+    }else
+printf("são diferentes");
+
+    return 0;
+}
